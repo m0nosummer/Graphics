@@ -644,11 +644,11 @@ void renderScene(void)
 
 
 ### 구현한 것들
-- Virtual Trackball (구면 좌표 변환 + 회전 축 계산)
-- Rodriguez Rotation Formula (임의 축 기준 회전)
-- Cubemap Environment Mapping
-- Refraction Vector Calculation (Snell's Law)
-- Keyframe-less Procedural Animation
+- 버추얼 트랙볼
+- 벡터 회전 (임의 축 기준 회전)
+- 큐브 맵 환경 매핑
+- 반사 벡터 구현
+- 캐릭터 애니메이션 세 가지
 
 - 정점 위치 데이터는 공유 VBO 1개로 통합 (메모리 절약)
 - 텍스처 좌표만 캐릭터별로 분리하여 유연성 확보
